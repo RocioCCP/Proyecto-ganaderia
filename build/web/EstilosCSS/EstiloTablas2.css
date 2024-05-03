@@ -1,0 +1,48 @@
+/* Estilo para la tabla */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    font-size: 12px; /* Tamaño de fuente */
+}
+
+/* Estilo para el encabezado  xxxxxxxxxxxxxxxxxxxxx titutlo de la tablac*/
+.table thead {
+   background-color:#057373 ; /* Color verde oliva */
+    color: white;
+    text-align: center; /* Centrar texto */
+    font-family: Century; /* Cambiar fuente */
+     font-size: 20px; /* Tamaño de fuente */
+}
+
+/* Estilo para las celdas del cuerpo de la tabla */
+.table tbody tr {
+    transition:  background-color 0.3s ease;
+}
+
+/* Estilo para las filas pares  ffffffffffffffffffffffff*/
+.table tbody tr:nth-child(even) {
+    background-color:#dae6e6; /* Color de fondo para filas pares */
+}
+
+/* Estilo para las celdas */
+.table tbody td, .table thead th {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #d7f5f5; /* Color del borde */
+    font-size: 11px; /* Tamaño de fuente */
+}
+
+
+/* Estilo para los botones dentro de las celdas */
+.table tbody .btn {
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 11px; /* Tamaño de fuente */
+}
+
+.container-fluid {
+
+}

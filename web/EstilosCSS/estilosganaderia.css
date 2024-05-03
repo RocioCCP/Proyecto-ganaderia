@@ -1,0 +1,83 @@
+/* Estilos generales */
+body {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 10;
+    flex-direction: column;
+    background-image: url('ImgGanadaria.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:fixed;
+    
+    }
+    
+    h1 {
+    text-align: center;
+    color: #070707;
+    margin-top: 20px;
+    }
+    
+    h2 {
+        text-align: center;
+        color: #050505;
+        margin-top: 20px;
+
+    }
+    
+    form {
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    background-color: #aef3f3;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(19, 19, 236, 0.1);
+    }
+    
+    label {
+    display: block;
+    margin-bottom: 8px;
+    color: #030303;
+    }
+    
+    input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #81b7f9;
+    border-radius: 4px;
+    }
+    
+    
+    button {
+    background-color: #0b48cb;
+    color: #0a15ea;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+    
+    button:hover {
+    background-color: #ebedf0
+    }
+    
+    br {
+    margin: 8px 0;
+    }
+    
+    input:focus {
+    outline: none;
+    border-color: #4bb71a;
+    box-shadow: 0 0 5px rgba(75, 183, 26, 0.5);
+    }
+    
+    /* Estilos para hacer el formulario responsive */
+    @media only screen and (max-width: 600px) {
+    form {
+    max-width: 100%;
+    }
+    }
