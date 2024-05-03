@@ -335,6 +335,7 @@
     });
 
     // Mueve el input de búsqueda a la posición deseada
+    // Mueve el input de búsqueda a la posición deseada
     $('#miTabla_filter').appendTo('#paginationContainer');
  
 });
